@@ -50,15 +50,13 @@ To get a local copy of this frontend demo up and running, follow these steps:
 **1. Prerequisites**
 Ensure you have [Node.js](https://nodejs.org/) installed on your machine (v16.0.0 or higher is recommended).
 
-**2. Clone the repository**
+**2. Clone/Install the repository**
 ```bash
 git clone [Repo URL]
 
-npm install
-# OR
-yarn install
-# OR
 pnpm install
+
+pnpm run dev
 
 ├── public/               # Static assets, favicon, and brand logos
 ├── src/
@@ -72,5 +70,3 @@ pnpm install
 │   └── main.jsx          # React DOM rendering
 ├── tailwind.config.js    # Custom brand colors (Warm Ivory, Sage Green)
 └── package.json          # Dependencies
-
-Thank you!
